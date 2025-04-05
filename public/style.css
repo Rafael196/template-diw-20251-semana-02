@@ -1,0 +1,89 @@
+.container div{
+    display:inline-block;
+}
+
+.container{
+    margin: 0 auto;
+    width: 50%;
+    box-shadow: 10px 2px solid black;
+    height: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.836);
+}
+
+
+header{
+    width: 100%;
+    background-color: rgba(238, 232, 232, 0.945);
+    display: flex;
+    justify-content: space-between;
+}
+
+.fotodocurr{
+    width: 30%;
+    border-right: 2px solid darkgray
+}
+
+.fotodocurr img{
+    width: 200px;
+    height: 250px;
+    padding: 15%;
+}
+
+.dados{
+    width: 70%;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.dados h1, h4{
+    margin: 0;
+}
+
+.dados p{
+    opacity: 50%;
+}
+
+section{
+    background-color: white;
+    display: flex;
+    height: 663px;
+}
+
+.competencias{
+    width: 30%;
+    border-right: 2px solid darkgray;
+    
+}
+
+.competencias ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.competencias h3{
+    text-decoration-line: underline;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.experiencia{
+    width: 70%;
+    margin-left: 20px;
+}
+
+.experiencia h3{
+    text-decoration-line: underline;
+    font-variant: small-caps;
+}
+
+.experiencia h4, h5{
+    margin: 0;
+}
+
+.experiencia p {
+    opacity: 50%;
+}
+
+
+
